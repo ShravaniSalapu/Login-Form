@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:550px;
+    background-color: aqua;
+    /*
+    background-image: url("https://cdn.cbeditz.com/cbeditz/preview/blurred-cb-photoshop-editing-background-hd-download-11645197842foxxxqeevx.jpg");
+   */
+   background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/252c4933-ae6d-4873-a0d6-8ec0c07e157e/d92f5nu-cabd42e0-8c5c-4556-9599-873f73312f47.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI1MmM0OTMzLWFlNmQtNDg3My1hMGQ2LThlYzBjMDdlMTU3ZVwvZDkyZjVudS1jYWJkNDJlMC04YzVjLTQ1NTYtOTU5OS04NzNmNzMzMTJmNDcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zbBkhc3W_AZNvTvFx4MAMgoPtJA5WssbWHzFlDGsFb0");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.form{
+    position:relative;
+    margin-top: 140px;
+    width:450px;
+    background-color: transparent;
+    color:white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border:2px solid rgba(255, 255, 255, 0.2);
+    outline:none;
+    backdrop-filter: blur(20px);
+
+}
+h1{
+    text-align: center;
+}
+.form .u{
+    position: relative;
+    width:100%;
+    height:50px;
+    margin:30px 0;
+}
+.u input{
+    width:100%;
+    height:100%;
+    border-radius: 40px;
+    outline: none;
+    background: transparent;
+    border:2px solid rgba(255, 255, 255, 0.2);
+}
+.u i{
+    position: absolute;
+    right:20px;
+    top:50%;
+}
+.u input::placeholder{
+    color:white;
+}
+.u input:hover{
+      transform:translate(0px,-8px);
+      box-shadow: 0 0 30px 0px rgba(0,0,0,0.2);
+}
+.r{
+    margin-top: 15px;
+}
+.r a{
+    margin-left:125px;
+    text-decoration: none;
+    color:white;
+}
+.r a:hover{
+    text-decoration: underline;
+}
+button{
+    margin-top: 15px;
+    height:30px;
+    border:none;
+    border-radius: 50px;
+    background:white;
+    color:black;
+    width:50%;
+    margin-left: 110px;
+}
+.f{
+    color:white;
+    margin-top: 15px;
+    text-align: center;
+}
+.f p a{
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.f a:hover{
+    text-decoration: underline;
+}
